@@ -1,0 +1,53 @@
+body{
+  background: rgb(37, 0, 48);
+  font: normal 15pt arial;
+}
+header{
+  color: white;
+  text-align: center;
+}
+section{
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(20, 9, 9);
+  text-align: center;
+}
+footer{
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+.btn-iniciar{
+  background: rgb(4, 153, 4);
+  height: 4em;
+  width: 7em;
+  border: none;
+  border-radius: 2em;
+  color: white;
+}
+.btn-pausar{
+  background: gray;
+  height: 4em;
+  width: 7em;
+  border: none;
+  border-radius: 2em;
+  color: white;
+}
+.btn-parar{
+  background: red;
+  height: 4em;
+  width: 7em;
+  border: none;
+  border-radius: 2em;
+  color: white;
+}
+button{
+  margin-bottom: 2em;
+}
+button:hover{
+  cursor: pointer;
+}
