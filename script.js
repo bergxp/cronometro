@@ -38,3 +38,4 @@ function contar(){
   }
   c.innerHTML = `${digitos(hora)}: ${digitos(min)}: ${digitos(seg)}`
 }
+//
