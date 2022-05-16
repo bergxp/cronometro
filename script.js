@@ -1,3 +1,4 @@
+//Cronometro JavaScript
 let c = document.getElementById('contador')
 let seg = 0
 let min = 0
@@ -38,4 +39,3 @@ function contar(){
   }
   c.innerHTML = `${digitos(hora)}: ${digitos(min)}: ${digitos(seg)}`
 }
-//
